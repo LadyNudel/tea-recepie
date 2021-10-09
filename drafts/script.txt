@@ -1,0 +1,103 @@
+witchy teas: 
+what do you want to summon? 
+
+Where is it at? You visit in a small shop. Somewhat a place between a book shop to a book shop. Smells of oak
+You get to know the Pourer (a witchy being), and they help you with achiving what you want to summon, with giving you a witchy tea recepie. 
+* I want it to feel more like an adventure. How? maybe it's about the way they get to the Pourer? maybe it's about the decisions the player make on the way 
+to the shop? How can I know what should they drink? 
+I want to give a real recepie, them to make it clear to the person they need to make the tea for real. After they got the tea, they talk with the Pourer, haveing
+a nice moment drinking tea. 
+ 
+Question ideas:
+What do you think you need more of in your life - adventures or stress-relief?
+How would you describe yourself? 
+What do you want to summon today? stress-relief or more energy?
+What kind of work to you feel doing today? psychic work, mental work, physical work? 
+
+Script:
+It's been some time since you went out. The rain haven't stopped for a week, and you are really in need for a strong cup of tea.
+One warm night, last summer, you were invited to dinner at a friend's place. It was this gathering of like minded spirits, and someone told 
+you about this shop that the owner can give you this magickal tea recepies. So, "why not today?" you thought to yourself, yearning for a good 
+cup of tea. Are you ready to go get a recepie? yes/no 
+
+if user wrote no - 
+It sounds like you need some time to get ready to go out. It can be stressful, come back when you feel like going out. 
+else if user wrote yes -
+
+You look at your tea essntials, hoping you have all the right ingerdiants and walk out the door. The minute you are out, the fresh air
+hits your face, there is a big puddle right outside the house. 
+You look at yourself in the reflection, what is the fist thing you notice? my coat/ my beanie/ my umbrella/ my boots
+
+if coat - You love your coat. It's big, comfy, and it's your favorite color - 
+if beanie - The beanie covers your ears, too, that's good.You hate it when your ears are too cold.
+if umbrella - You found this umbrella at your place, after one of your seasonal celebrations.
+if boots - Good thing you bought a new pair, the old ones where in an ugly shade of - 
+
+You walk away from the puddle, and start going down the streets. The sky is full with heavy clouds, the air is fresh, no 
+rain, no thunder. You take a deep refershing bearth, you feel this tingle in your lungs and you smile. 
+The buildings slide away, and so are the poeple making their way on the sidewalk. You remember that the shop is past the big oak tree downtown.
+This tree turned into the city's symbol. While you walk, there are people walking past you on their way to their buisnesses. 
+It's seems as if everyone on town thought today will be a good day to get busy. 
+You arrive at this crossword, and you need to decide whether you go right or left. What do you prefer, eating ice cream in the winter, or 
+soup in summer? 
+
+if ice cream - You turn right - you walk through the park
+if soup - You turn left - you walk through a cemetery
+
+You decided to turn right, so you turn and 
+You decided to turn left, so you turn and 
+
+
+ 
+
+
+You entered a store, that looks like a combination of a tea house, and a book store.
+There is this sweet scenet in the air, and a warm oaky scent.
+Hello there, I'm the Pourer. You hear a voice, chirping like small bells
+It's seems you are in need of some tea. There is a person, coming from the back of the tea-book-house, they look like they got out of a 19th century oil painting.
+How did you know? You stand in front of them, surprised, blinking.
+Well, they start while absurving you. I can see it on your face?
+
+
+
+
+
+- only herbal tea? 
+mint
+chamomile
+sage
+ginger
+hibiscus
+rose hip
+rosmery
+roses
+micromeric
+lavender
+olive oil leaves
+lemon grass
+thyme
+lemon verbena
+dendilaion
+mugwort
+
+Mashes ideas:
+mint + cinamon + ginger + honey + lemon 
+lemon grass + lemon verbena
+roses + white tea 
+chemomile + lavender + ginger + honey
+
+What can you use teas for?
+Energy 
+For stomach aches
+Headaches
+To sleep
+Fighting depression
+To calm down/relax/stress and anixety
+Helping metabolism
+Enhancing psychic energy
+
+
+
+
+
+
