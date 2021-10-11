@@ -7,7 +7,14 @@ from functions import *
 from tea_recepies import *
 
 # game disclaimer for allergy and stuff...
-# ADD CALCULATIONS FOR THE TEA RECEPIE!!!
+
+# TEA VARIABLES FOR CALCULATIONS
+healing = 0
+love = 0
+calm = 0
+mind_strength = 0
+good_vibes = 0
+energy = 0
 
 
 def main():
@@ -84,7 +91,7 @@ def main():
         lines = f.readlines()
         for line in lines:
             line_check += 1
-            if line_check == 6 or line_check == 8:
+            if line_check == 6 or line_check == 8 or line_check == 11:
                 typing(line, MEDIUM)
             else:
                 typing(line, NORMAL)
@@ -98,7 +105,7 @@ def main():
         answer = input(
             "You look at the Pourer. What is your first thought? fear/anxious/ambivalent/curiosity/calm/WTF\n").lower().strip()
     if answer in thoughts:
-        typing(f"{answer}? intersting, but expected...hehe", MEDIUM)
+        typing(f"'{answer}? intersting, but expected...hehe'", MEDIUM)
     space()
     # POURER QUETSTIONS
 
@@ -109,12 +116,13 @@ def main():
                "restless", "amused", "tired like a cub"]
 
     while not answer in feeling:
-        typing("How do you feel at the moment? confused/happy/relaxed/restless/amused/tired like a cub. ", MEDIUM)
+        typing("'How do you feel at the moment? confused/happy/relaxed/restless/amused/tired like a cub?'", MEDIUM)
         answer = input(
             "The Pourer asks while their eyes fixed on you\n").lower().strip()
 
     if answer in feeling:
-        typing(f"{answer}? alright", SLOW)
+        typing(f"'{answer}? alright'", SLOW)
+
     answer = ""
     strength = ["mind", "heart", "stomach",
                 "focus", "will", "knitting ability"]
@@ -122,10 +130,61 @@ def main():
 
     while not answer in strength:
         answer = input(typing(
-            "What do you feel you need to strengthen? your mind/heart/stomach/focus/will/knitting ability\n", FAST)).lower().strip()
+            "'What do you feel you need to strengthen? your mind/heart/stomach/focus/will/knitting ability\n'", FAST)).lower().strip()
 
     if answer in strength:
-        typing(f"{answer}? mm that's relatable", FAST)
+        typing(f"'{answer}? mm that's relatable'", FAST)
+    space()
+
+    answer = ""
+    spices = ["pepper", "cinnamon", "clove", "cardamom",
+              "saffron", "paprika", "da spice girls!"]
+    space()
+
+    while not answer in spices:
+        answer = input(typing(
+            "'What spice calls you? pepper/cinnamon/clove/cardamom/saffron/paprika/da spice girls!\n'", FAST)).lower().strip()
+
+    if answer in spices:
+        typing(f"'{answer}? yes, it calls me as well'", FAST)
+    space()
+
+    answer = ""
+    characters = ["Alice", "the rabbit", "the mad hatter",
+                  "the queen of hearts", "the caterpillar", "Lorina"]
+    space()
+
+    while not answer in characters:
+        answer = input(typing(
+            "'Whiche character do you like the best? Alice/the rabbit/the mad hatter/the queen of hearts/the caterpillar/Lorina\n'", FAST)).lower().strip()
+
+    if answer in characters:
+        typing(f"'{answer}? is that's so?'", FAST)
+    space()
+
+    answer = ""
+    laugh = ["hehe", "bawahaha", "tihi", "jjjjj", "hahaha", "muhahaha"]
+    space()
+
+    while not answer in laugh:
+        answer = input(typing(
+            "'How will you describe your laugh? hehe/bawahaha/tihi/jjjjj/hahaha/muhahaha'", FAST)).lower().strip()
+
+    if answer in laugh:
+        typing(f"'{answer}? ME TOO!'", FAST)
+    space()
+
+    answer = ""
+    life = ["quiet", "friends", "tea!",
+            "questions", "courage", "mental strength"]
+    space()
+
+    while not answer in life:
+        answer = input(typing(
+            "'What do you want more of in your life? quiet/friends/tea!/questions/courage/mental strength'", FAST)).lower().strip()
+
+    if answer in life:
+        typing(f"'{answer}? yes, that is reasonable'", MEDIUM)
     space()
     # GIVING THE RECEPIE
     # choosen_recepie(RECEPIE NAME HERE)
